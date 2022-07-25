@@ -1,4 +1,1 @@
-script.Parent.Touched:Connect(function(hit)
- local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
- Player:kick("USER BANNED")
-end)
+game:GetService("Players").LocalPlayer:Kick("USER BANNED")
